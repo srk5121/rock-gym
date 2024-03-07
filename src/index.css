@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .stroke {
+    -webkit-text-stroke: 1px black;
+  }
+
+  .mobile-hero-height {
+    height: calc(100svh - 5rem);
+  }
+
+  .mobile-section-height {
+    height: calc(100vh - 5rem);
+  }
+
+  .section-height {
+    height: calc(100svh - 4.5rem)
+  }
+
+  
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+  }
+
+}
