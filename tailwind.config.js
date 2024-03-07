@@ -23,8 +23,10 @@ export default {
         // secondary: ['"Archivo Black"', ...defaultTheme.fontFamily.sans],
       },
       backgroundImage: {
-        hero: "url('./src/sections/hero/body_hero.webp')",
-        location: "url('./src/sections/location/location.webp')",
+        // hero: "url('./src/sections/hero/body_hero.webp')",
+        // location: "url('./src/sections/location/location.webp')",
+        hero: "url('./bg-images/body_hero.webp')",
+        location: "url('./bg-images/location.webp')",
       },
       keyframes: {
         name: {},
