@@ -15,7 +15,7 @@ export const reviews = [
     firstName: "SHIVA",
     lastName: "KUMAR",
     img: Image1,
-    text: "Rock Gym in Siddipet stands out as the best choice when it comes to both trainers especially Sravan and flexible timings. The owner's dedication to personal care sets this gym apart from others. Unlike most gyms that may not pay much attention once you've paid your fees, Rock Gym consistently provides regular follow-ups, encouraging members to maintain a regular workout routine. The support and commitment to its members are truly exceptional.",
+    text: "Rock Gym in Siddipet stands out as the best choice when it comes to both trainers especially Sravan and flexible timings. The owner's dedication to personal care sets this gym apart from others. Unlike most gyms that may not pay much attention once you've paid your fees, Rock Gym consistently provides regular follow-ups, encouraging members to maintain a regular workout routine.",
   },
   {
     name: "MUSTAFA MD",
@@ -57,7 +57,7 @@ export const reviews = [
     firstName: "VINAY",
     lastName: "K",
     img: Image7,
-    text: "Excellent place to work out, and the guidance for the freshers is marvellous, those who are new to the gym must try this gym because the guidance for freshers will be the same as those who paid the amount for their personal training, due to my personal issue I'm not able to post my photos, but just 4 months of proper guidance of the trainer(Mr. Shravan), almost I have reduced my weight 83 to 71 with proper outfit look. Thank you Shravan and never forget the gym friends ( bcz they only helped me on my last set in sometimes 😜 )",
+    text: "Excellent place to work out, and the guidance for the freshers is marvellous, those who are new to the gym must try this gym because the guidance for freshers will be the same as those who paid the amount for their personal training, due to my personal issue I'm not able to post my photos, but just 4 months of proper guidance of the trainer(Mr. Shravan), almost I have reduced my weight 83 to 71.",
   },
   {
     name: "SRINU NANI",
@@ -78,6 +78,6 @@ export const reviews = [
     firstName: "NARESH",
     lastName: "PALLE",
     img: Image10,
-    text: "Rock Gym Was Very Friendly Gym And The Trainer Contains of Good Behaviour with all the Clint’s Rock Gym Contains of All Facilities with affordable Fees.",
+    text: "Rock Gym Was Very Friendly Gym And The Trainer Contains of Good Behaviour with all the Clint's Rock Gym Contains of All Facilities with affordable Fees.",
   },
 ];
