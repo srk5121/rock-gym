@@ -9,7 +9,10 @@ const Location = () => {
       </h1>
       <div className="relative mx-auto flex flex-col items-center md:max-w-2xl lg:max-w-4xl">
         <div className="relative flex w-full flex-col items-center justify-start gap-8 lg:w-4/5">
-          <div className="relative aspect-square w-full rounded bg-[url('./location.webp')] bg-cover bg-center lg:aspect-video">
+          <div
+            style={{ backgroundImage: 'url("./location.webp")' }}
+            className="relative aspect-square w-full rounded bg-cover bg-center lg:aspect-video"
+          >
             <a
               href={getDirections}
               target="_blank"
