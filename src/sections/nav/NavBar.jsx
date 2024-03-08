@@ -34,25 +34,57 @@ const NavBar = () => {
           <nav className="mr-6 hidden md:block">
             <ul className="flex flex-row gap-4 text-xs font-semibold tracking-wider text-primary lg:gap-6">
               <li>
-                <a href="#hero">HOME</a>
+                <a href="#hero" className="underline-offset-2 hover:underline">
+                  HOME
+                </a>
               </li>
               <li>
-                <a href="#trainer">TRAINER</a>
+                <a
+                  href="#trainer"
+                  className="underline-offset-2 hover:underline"
+                >
+                  TRAINER
+                </a>
               </li>
               <li>
-                <a href="#equipment">EQUIPMENT</a>
+                <a
+                  href="#equipment"
+                  className="underline-offset-2 hover:underline"
+                >
+                  EQUIPMENT
+                </a>
               </li>
               <li>
-                <a href="#gallery">GALLERY</a>
+                <a
+                  href="#gallery"
+                  className="underline-offset-2 hover:underline"
+                >
+                  GALLERY
+                </a>
               </li>
               <li>
-                <a href="#reviews">REVIEWS</a>
+                <a
+                  href="#reviews"
+                  className="underline-offset-2 hover:underline"
+                >
+                  REVIEWS
+                </a>
               </li>
               <li>
-                <a href="#location">LOCATION</a>
+                <a
+                  href="#location"
+                  className="underline-offset-2 hover:underline"
+                >
+                  LOCATION
+                </a>
               </li>
               <li>
-                <a href="#contact">CONTACT US</a>
+                <a
+                  href="#contact"
+                  className="underline-offset-2 hover:underline"
+                >
+                  CONTACT US
+                </a>
               </li>
             </ul>
           </nav>

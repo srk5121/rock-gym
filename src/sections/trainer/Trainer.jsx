@@ -2,34 +2,34 @@ import TrainerPNG from "./trainer.webp";
 
 const Trainer = () => {
   return (
-    <section
-      id="trainer"
-      className="md:section-height mobile-section-height mx-auto overflow-hidden"
-    >
-      <div className="relative flex h-full w-full flex-col items-center">
-        <h1 className="stroke relative self-stretch bg-primary py-6 text-center font-primary text-5xl tracking-[0.4rem] text-black">
-          TRAINER
-        </h1>
+    <section id="trainer" className="mb-6 flex flex-col overflow-hidden">
+      <h1 className="stroke bg-primary py-6 text-center font-primary text-5xl tracking-[0.4rem] text-black">
+        TRAINER
+      </h1>
 
-        <div className="relative flex w-full flex-grow flex-col items-center justify-center gap-4 overflow-x-hidden overflow-y-hidden">
-          {/* changing mw4xl to w4xl equivalent */}
-          <div className="flex h-full flex-col items-center justify-center widescreen:lg:w-[56rem]">
-            <img
-              loading="lazy"
-              src={TrainerPNG}
-              alt="Trainer"
-              className=" z-10 h-3/5 widescreen:lg:h-4/5"
-            />
-            <h1 className="z-10 flex flex-col items-center text-3xl font-extrabold tracking-[0.4rem] *:block  md:font-black md:tracking-[0.5rem] lg:text-2xl">
-              <span className="text-black">FIRSTNAME</span>
-              <span className=" text-slate-500">LASTNAME</span>
-            </h1>
-          </div>
-          <div className="absolute top-[50%] z-0 h-[100vh]  w-[600%] origin-[50%_0%] rotate-[45deg] lg:top-[40%] lg:rotate-[30deg] widescreen:lg:rotate-[10deg]">
-            <div className="h-[2%] w-full bg-slate-500"></div>
-            <div className="h-[2%] w-full bg-white"></div>
-            <div className="h-[96%] w-full bg-primary"></div>
-          </div>
+      <div className="mx-auto flex flex-col items-center justify-center gap-4  p-6 md:max-w-2xl lg:max-w-4xl widescreen:lg:flex-row">
+        <div className="flex w-full flex-col items-center gap-2">
+          <img
+            src={TrainerPNG}
+            alt="Trainer"
+            loading="lazy"
+            className="w-[50%]"
+          />
+          <h2 className="flex flex-wrap justify-center text-2xl font-semibold tracking-[0.3rem] md:font-bold md:tracking-[0.4rem]">
+            <span className="text-">&nbsp;FIRSTNAME&nbsp;</span>
+            <span className="text-gray-500">LASTNAME</span>
+          </h2>
+        </div>
+        <div className="w-full items-stretch justify-center widescreen:lg:flex widescreen:lg:self-stretch">
+          <p className="mx-auto grid place-content-center rounded bg-primary p-4 font-medium text-black lg:w-4/5 lg:text-lg widescreen:lg:text-lg">
+            <span className="self-center">
+              Hello there! I am _________. I am a professional fitness trainer
+              with _ years of experience in body building. I provide personal
+              training which includes customized diet and workout plans based on
+              your fitness goals. I can help you in your weight loss/ weight
+              gain journey to achieve your dream physique.{" "}
+            </span>
+          </p>
         </div>
       </div>
     </section>

@@ -110,7 +110,7 @@ const Reviews = () => {
                       </div>
 
                       <div className="">
-                        <p className=" break-word no-scrollbar aspect-[3/2] overflow-y-scroll md:aspect-auto">
+                        <p className=" break-word no-scrollbar aspect-[3/2] overflow-y-scroll text-neutral-200 md:aspect-auto">
                           {review.text}
                         </p>
                       </div>
