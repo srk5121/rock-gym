@@ -1,3 +1,4 @@
+import Location from './location.webp'
 const getDirections =
   "https://www.google.com/maps/dir//Rock+gym+%26+Fitness+Studio,+opp.+Rythu+bazar,+Shivaji+Nagar,+Siddipet,+Telangana+502103/@18.101578,78.8480951,19z/data=!4m17!1m7!3m6!1s0x3bcc93c3bdee7091:0x9f544aaad5aaf513!2sRock+gym+%26+Fitness+Studio!8m2!3d18.1014818!4d78.8481394!16s%2Fg%2F11q_75svlt!4m8!1m0!1m5!1m1!1s0x3bcc93c3bdee7091:0x9f544aaad5aaf513!2m2!1d78.8481394!2d18.1014818!3e9?entry=ttu";
 
@@ -10,7 +11,7 @@ const Location = () => {
       <div className="relative mx-auto flex flex-col items-center md:max-w-2xl lg:max-w-4xl">
         <div className="relative flex w-full flex-col items-center justify-start gap-8 lg:w-4/5">
           <div
-            style={{ backgroundImage: 'url("./location.webp")' }}
+            style={{ backgroundImage: `url(${Location})` }}
             className="relative aspect-square w-full rounded bg-cover bg-center lg:aspect-video"
           >
             <a
