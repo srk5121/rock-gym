@@ -8,7 +8,7 @@ const Hero = () => {
         id="hero"
         style={{ backgroundImage: `url(${HeroBg})` }}
         //bg image fixed
-        className={`mobile-hero-height md:section-height mx-auto flex items-center justify-items-start bg-black bg-[length:90%_auto] bg-fixed bg-[100%_15vh] bg-no-repeat md:max-w-2xl md:bg-[length:80%_auto] md:bg-[100%_10vh] lg:max-w-4xl lg:bg-[length:auto_100%] widescreen:lg:bg-[length:auto_90%] widescreen:lg:bg-[70%_100%]`}
+        className={`mobile-hero-height md:section-height mx-auto flex items-center justify-items-start bg-black bg-[length:90%_auto] bg-fixed bg-[100%_10vh] bg-no-repeat md:max-w-2xl md:bg-[length:80%_auto] md:bg-[100%_10vh] lg:max-w-4xl lg:bg-[length:auto_100%] widescreen:lg:bg-[length:auto_90%] widescreen:lg:bg-[70%_100%]`}
         //bg image scroll
         // className={`mobile-hero-height md:section-height mx-auto flex items-center justify-items-start bg-black bg-[length:auto_80%] bg-[100%_0%] bg-no-repeat md:max-w-2xl md:bg-[length:auto_70%] md:bg-[80%_50%] lg:max-w-4xl lg:bg-[length:auto_100%]`}
       >
