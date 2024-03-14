@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { IoCloseSharp, GiHamburgerMenu } from "./index";
+import { IoCloseSharp } from "./index";
 
 const NavBar = () => {
   const [displayMenu, setDisplayMenu] = useState("hidden");

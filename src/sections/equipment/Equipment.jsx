@@ -1,9 +1,4 @@
-import {
-  equipmentCategories,
-  upperBodyEquipment,
-  lowerBodyEquipment,
-  cardioEquipment,
-} from "./index.js";
+import { equipmentCategories } from "./index.js";
 import Slider from "../../utilities/Slider";
 
 const Equipment = () => {

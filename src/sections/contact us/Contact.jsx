@@ -13,8 +13,7 @@ const Contact = () => {
             </h3>
             <h3 className="flex items-center gap-2">
               <TfiEmail />
-              <a href="mailto:example@gmail.com"></a>
-              example@gmail.com
+              <a href="mailto:example@gmail.com">example@gmail.com</a>
             </h3>
           </div>
           <div>

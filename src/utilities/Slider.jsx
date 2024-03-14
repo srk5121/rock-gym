@@ -78,14 +78,6 @@ const Slider = ({ images, textColor = "text-primary", color = "#fdd100" }) => {
                 className={`h-full w-full rounded transition-all`}
                 style={{ transform: `translateX(-${translatePercentage}%)` }}
               />
-
-              {/* <img
-              loading="lazy"
-                src={image.src}
-                key={i}
-                style={{ transform: `translateX(-${translatePercentage}%)` }}
-                className={`h-full w-full flex-shrink-0 flex-grow-0 rounded transition-all`}
-              /> */}
             </div>
           ))}
         </div>
