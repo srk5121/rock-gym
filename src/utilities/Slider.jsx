@@ -46,7 +46,7 @@ const Slider = ({ images, textColor = "text-primary", color = "#fdd100" }) => {
       <div className="flex w-full items-center justify-center ">
         <div onClick={moveLeft}>
           <LiaChevronLeftSolid
-            className={`text-4xl md:text-6xl ${index === 0 ? "text-gray-500" : textColor}`}
+            className={`text-4xl md:text-6xl ${index === 0 ? "text-gray-500" : textColor} cursor-pointer`}
           />
         </div>
 
@@ -92,7 +92,7 @@ const Slider = ({ images, textColor = "text-primary", color = "#fdd100" }) => {
 
         <div onClick={moveRight}>
           <LiaChevronRightSolid
-            className={`text-4xl md:text-6xl ${index === images.length - 1 ? "text-gray-500" : textColor}`}
+            className={`text-4xl md:text-6xl ${index === images.length - 1 ? "text-gray-500" : textColor} cursor-pointer`}
           />
         </div>
       </div>
@@ -101,7 +101,7 @@ const Slider = ({ images, textColor = "text-primary", color = "#fdd100" }) => {
         {images.map((_, i) => {
           return (
             <li
-              className="inline-block leading-[0]"
+              className="inline-block cursor-pointer leading-[0]"
               key={i}
               id={i}
               onClick={moveToIndex}

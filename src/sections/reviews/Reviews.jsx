@@ -63,7 +63,7 @@ const Reviews = () => {
             >
               <MdKeyboardArrowLeft
                 className={`text-4xl text-gray-500 md:text-5xl
-                ${index === 0 ? "invisible" : "visible"}`}
+                ${index === 0 ? "invisible" : "visible"} cursor-pointer`}
               />
             </div>
 
@@ -122,7 +122,7 @@ const Reviews = () => {
             <div className="grid aspect-square w-[10%] place-content-center">
               <MdKeyboardArrowRight
                 className={`text-4xl text-gray-500 md:text-5xl
-                ${index === reviews.length - 1 ? "invisible" : "visible"}
+                ${index === reviews.length - 1 ? "invisible" : "visible"} cursor-pointer
                 `}
                 onClick={moveRight}
               />
@@ -133,14 +133,14 @@ const Reviews = () => {
             {reviews.map((_, i) => {
               return (
                 <li
-                  className="inline-block leading-[0]"
+                  className="inline-block cursor-pointer leading-[0]"
                   key={i}
                   id={i}
                   onClick={moveToIndex}
                 >
                   <span
                     style={{
-                      borderColor: `${index === i ? "#fdd100" : "#6b7280"}`,
+                      borderColor: `${index === i ? "#fdd100" : "#6b7280"} `,
                     }}
                     className=" inline-block rounded-full border-4 border-gray-500"
                     id={i}

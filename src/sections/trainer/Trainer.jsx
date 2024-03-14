@@ -22,7 +22,7 @@ const Trainer = () => {
         </div>
         <div className="w-full items-stretch justify-center widescreen:lg:flex widescreen:lg:self-stretch">
           <p className="mx-auto grid place-content-center rounded bg-primary p-4 font-medium text-black lg:w-4/5 lg:text-lg widescreen:lg:text-lg">
-            <span className="self-center">
+            <span className="self-center text-justify">
               Hello there! I am _________. I am a professional fitness trainer
               with _ years of experience in body building. I provide personal
               training which includes customized diet and workout plans based on

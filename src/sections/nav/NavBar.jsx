@@ -91,7 +91,7 @@ const NavBar = () => {
         </div>
 
         <section
-          className={`fixed inset-0 *:w-max ${displayMenu} z-30 grid place-items-center bg-black text-primary`}
+          className={`fixed inset-[-10rem] *:w-max ${displayMenu} z-30 grid place-items-center bg-black text-primary`}
           onClick={handleDisplayMenu}
         >
           <ul className="flex flex-col items-center text-xl font-medium tracking-[0.3rem]">
