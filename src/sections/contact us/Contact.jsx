@@ -1,5 +1,5 @@
 import { BsTelephone } from "react-icons/bs";
-import { TfiEmail } from "react-icons/tfi";
+import { FaFacebookSquare } from "react-icons/fa";
 const Contact = () => {
   const year = new Date().getFullYear();
   return (
@@ -9,11 +9,13 @@ const Contact = () => {
           <div>
             <h3 className="flex items-center gap-2">
               <BsTelephone />
-              <a href="tel:+910123456789">0123456789</a>
+              <a href="tel:+918328118425">8328118425</a>
             </h3>
             <h3 className="flex items-center gap-2">
-              <TfiEmail />
-              <a href="mailto:example@gmail.com">example@gmail.com</a>
+              <FaFacebookSquare />
+              <a href="https://m.facebook.com/people/Rock-gymfitness-studio/100064187468074/?locale=hi_IN">
+                Rock Gym | Facebook
+              </a>
             </h3>
           </div>
           <div>
@@ -31,6 +33,13 @@ const Contact = () => {
           </div>
         </div>
       </section>
+      <hr className="mx-auto w-3/4 border-black" />
+      <div className="mx-auto w-4/5 py-4 md:max-w-2xl lg:max-w-4xl">
+        <p className="flex flex-col items-center justify-center text-lg font-medium tracking-widest sm:flex-row sm:gap-1 md:font-semibold">
+          <span>Designed & Developed by</span>
+          <span className="italic">Srikanth Raj K</span>
+        </p>
+      </div>
     </footer>
   );
 };
