@@ -13,7 +13,10 @@ const Contact = () => {
             </h3>
             <h3 className="flex items-center gap-2">
               <FaFacebookSquare />
-              <a href="https://m.facebook.com/people/Rock-gymfitness-studio/100064187468074/?locale=hi_IN">
+              <a
+                href="https://m.facebook.com/people/Rock-gymfitness-studio/100064187468074/?locale=hi_IN"
+                target="_blank"
+              >
                 Rock Gym | Facebook
               </a>
             </h3>
