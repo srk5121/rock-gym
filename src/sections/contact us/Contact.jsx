@@ -40,7 +40,7 @@ const Contact = () => {
       <div className="mx-auto w-4/5 py-4 md:max-w-2xl lg:max-w-4xl">
         <p className="flex flex-col items-center justify-center text-lg font-medium tracking-widest sm:flex-row sm:gap-1 md:font-semibold">
           <span>Designed & Developed by</span>
-          <span className="italic">Srikanth Raj K</span>
+          <span className="italic">Srikanth K</span>
         </p>
       </div>
     </footer>
